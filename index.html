@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+    
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 position-absolute bottom-0 end-0">
+                    <div class="card shadow-sm " >
+                        <div class="card-header d-flex justify-content-between bg-secondary">
+                            <h5 class="text-light">Mehdi's ChatBot</h5>
+                            <button class="btn btn-danger rounded-circle btn-sm" id="close">
+                                <i class="bi bi-chevron-compact-down"></i>
+                            </button>
+                        </div>
+                        <div class="card-body " id="messages"></div>
+                        <div class="card-footer bg-white">
+                            <div class="input-group ">
+                                <input type="text" class="form-control border-white" placeholder="Message ..." aria-label="Recipient's username" aria-describedby="send">
+                                <button class="btn btn-success rounded-5" type="button" id="send" disabled><i class="bi bi-send"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <audio src="audio/twitter_notificacion.mp3"></audio>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
